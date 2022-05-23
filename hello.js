@@ -5,8 +5,11 @@ let daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
 
 let now = new Date();
 let dayName = daysOfTheWeek[now.getDay()];
-alert(`Hello World! Happy ${dayName.toUpperCase()} to you! `)
+function yell() {
+    console.log(alert(`Hello World! Happy ${dayName.toUpperCase()} to you! `))
+}
 
+yell()
 
 
 
